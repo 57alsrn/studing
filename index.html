@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-<html lang="kor">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>암기노트</title>
+
+    <h1>공부만이 살길ㅅㅂ</h1>
 </head> 
+<style>
+    a {
+        text-decoration: none;
+    }
+    h1 {
+        text-align: center; color: red;
+        
+    }   
+        
+    h3 {border-right: solid gray 1px;
+            width: 110px;
+            margin: 0;
+            padding: 20px;
+
+    }
+
+    body {
+        margin: 0;
+    }
+    #시바{text-align: center;
+        border-bottom: 1px solid gray;
+        padding-bottom: 20px;
+        margin: 0;
+        }
+    #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    #메인{
+        padding: 20px;
+    }
+    @media(max-width:500px){
+        #grid{
+        display: block;}
+        h3{
+            border-right: none;
+        }
+        #메인{
+            border-top: solid 1px gray;
+        }
+    }
+</style>
+<br>
 <body>
- <ul>
-    <li><a href =korean.html>국어</a></li>
-    <li>영어</li>
-    <li>한국사</li>
-    <li>교정학</li>
-    <li>형소법</li> </ul>
+    <div id="시바">
+ <img src="tq.gif" width="30%">
+    </div>
+    
+    <div id="grid">
+        <h3>
+    
+        과목
+        <ul>
+            <li><a href ="국어/korean.html">국어</a></li>
+            <li><a href ="영어/english.html">영어</a></li>
+            <li><a href="한국사/KoreanHistory.html">한국사</a> </li>
+            <li><a href="교정학/correction.html">교정학</a> </li>
+            <li><a href="형소법/TheCodeOfCriminalProcedure.html">형소법</a></li> 
+        </ul>
+        </h3> 
+
+        <div id="메인">
+        다 때려 치우고 네버랜드로 떠나고 싶다..<br>
+<br>
+<br>
+<br>
+
+        2020년 어느 초겨울 -김군-
+        </div>
+    </div>
 </body>
 </html>
